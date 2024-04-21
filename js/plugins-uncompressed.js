@@ -28839,7 +28839,7 @@ var getYTPVideoID = function( url ) {
 			 */
 			mask: false,
 			opacity: 1,
-			quality: "default", //or “small”, “medium”, “large”, “hd720”, “hd1080”, “highres”
+			quality: "default", //or ï¿½smallï¿½, ï¿½mediumï¿½, ï¿½largeï¿½, ï¿½hd720ï¿½, ï¿½hd1080ï¿½, ï¿½highresï¿½
 			mute: false,
 			loop: true,
 			fadeOnStartTime: 500, //fade in timing at video start
