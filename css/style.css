@@ -1477,7 +1477,7 @@ h1.home-page-title-show {
 .navbar-brand {
   font-weight: 600;
   font-size: 20px;
-  letter-spacing: 0.20em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   text-decoration: none;
   margin-left: 20px;
@@ -1522,7 +1522,7 @@ h1.home-page-title-show {
 .main-navigation .navbar-nav li a {
   font-weight: 600;
   font-size: 13px;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;
   color: #A0153E;
@@ -2690,13 +2690,16 @@ nav.nav-secondary-experience li a:hover {
 }
 
 .image-works:hover .hover-effect {
+  padding: 30px 0px 30px 0px;
   opacity: 0.55;
   -moz-opacity: 0.55;
   -webkit-opacity: 0.55;
   filter: alpha(opacity=55);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
 }
-
+.work_hover_text p {
+  width: 80%;
+}
 
 /* 16. services */
 h6.services {  
